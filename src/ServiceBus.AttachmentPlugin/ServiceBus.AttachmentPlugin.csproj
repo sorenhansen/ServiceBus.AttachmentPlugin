@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <Description>Microsoft Azure ServiceBus attachment plugin</Description>
-    <Version>6.1.0</Version>
     <Authors>Sean Feldman</Authors>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
     <PackageTags>Azure;Service Bus;ServiceBus;.NET;AMQP;IoT;Queue;Topic;Attachment;Plugin</PackageTags>
@@ -33,6 +32,10 @@
     <PackageReference Include="Microsoft.Azure.ServiceBus" Version="2.0.0" />
     <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="11.1.0" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+    <PackageReference Include="MinVer" Version="2.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>
